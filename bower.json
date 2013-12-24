@@ -20,7 +20,6 @@
     "requirejs": "~2.1.9",
     "cannon.js": "https://github.com/schteppe/cannon.js.git#~0.5.0",
     "threex.keyboardstate": "*",
-    "stats.js": "https://github.com/mrdoob/stats.js.git",
-    "threex.cannonjs": "*"
+    "stats.js": "https://github.com/mrdoob/stats.js.git"
   }
 }

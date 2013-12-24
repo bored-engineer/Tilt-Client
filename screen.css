@@ -1,15 +1,11 @@
-.container {
-	width: 100%;
-}
-
-.status .disabled {
-	opacity: 1;
-}
-
-.status button {
-	margin: 20px;
-}
-
 #container {
 	background: #000000;
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
 }

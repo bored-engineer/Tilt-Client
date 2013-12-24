@@ -2,10 +2,6 @@
 require.config({
 	baseUrl: 'lib',
 	shim: {
-		'jquery.bootstrap': {
-			deps: ['jquery'],
-			exports: '$'
-		},
 		'THREE': {
 			exports: 'THREE'
 		},
@@ -14,7 +10,7 @@ require.config({
 			exports: 'THREEx.KeyboardState'
 		},
 		'CANNON': {
-			exports: ['CANNON']
+			exports: 'CANNON'
 		},
 		'THREEx.CannonWorld': {
 			deps: ['THREE', 'CANNON'],
@@ -42,8 +38,8 @@ require.config({
 
 // Actually load deps
 require([
-	'jquery.bootstrap',
-	'../scripts/THREE/init'
+	'jquery',
+	'../scripts/init'
 ], function(
 	$,
 	init

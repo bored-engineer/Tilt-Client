@@ -16,18 +16,18 @@ define([
 			camera.updateProjectionMatrix();
 			renderer.setSize(window.innerWidth, window.innerHeight);
 		});
-
+		
 		// Function to call as often as possible
-		function render() {
+		function render(nowMsec) {
 
 			// If we are supposed to loop, do so once next
 			requestAnimationFrame(render);
 
-			// Actaully render the scene
-			renderer.render(scene, camera);
-
 			// Update the stats
 			stats.update();
+
+			// Actaully render the scene
+			renderer.render(scene, camera);
 
 		}
 
