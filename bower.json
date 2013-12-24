@@ -17,7 +17,10 @@
     "bootstrap": "~3.0.3",
     "jquery": "~2.0.3",
     "threejs": "*",
-    "cannon": "https://github.com/schteppe/cannon.js",
-    "requirejs": "~2.1.9"
+    "requirejs": "~2.1.9",
+    "cannon.js": "https://github.com/schteppe/cannon.js.git#~0.5.0",
+    "threex.keyboardstate": "*",
+    "stats.js": "https://github.com/mrdoob/stats.js.git",
+    "threex.cannonjs": "*"
   }
 }
